@@ -1,0 +1,71 @@
+//Preenchimento da ficha
+Console.WriteLine("Preencha a ficha de Dados:");
+
+Console.WriteLine("-------------------------------------------------------------------");
+
+Console.WriteLine("Digite seu nome completo:");
+string nome = Console.ReadLine();
+
+Console.WriteLine("-------------------------------------------------------------------");
+
+Console.WriteLine("Digite sua idade:");
+string idade = Console.ReadLine();
+
+Console.WriteLine("-------------------------------------------------------------------");
+
+Console.WriteLine("Digite o nome do curso que você quer cursar, (TADS, BIOMEDICINA, MECANICA, EDUCAÇÃO FISICA):");
+string palavra = Console.ReadLine();
+
+Console.WriteLine("-------------------------------------------------------------------");
+
+if (palavra == "TADS")
+{
+    //Informações sobre o curso
+    Console.WriteLine("Curso escolhido: TADS;");
+    Console.WriteLine("Materias: Java, Csharp, Python, Banco de dados, Engenharia de software, Cibersegurança;");
+    Console.WriteLine("Tempo de curso: 2 anos e meio;");
+    Console.WriteLine("Horario das aulas: 19:00 as 22:30;");
+    Console.WriteLine("Mensalidade: R$ 630,00;");
+    Console.WriteLine("Valor para rematricula: R$ 1.200,00;");
+}
+if (palavra == "BIOMEDICINA")
+{
+    //Informações sobre o curso
+    Console.WriteLine("Curso escolhido: BIOMEDICINA;");
+    Console.WriteLine("Materias: Anatomia humana, Fisiologia humana, Genetica, Bioquimica ;");
+    Console.WriteLine("Tempo de curso: 4 anos;");
+    Console.WriteLine("Horario das aulas: 19:00 as 22:30;");
+    Console.WriteLine("Mensalidade: R$ 820,00;");
+    Console.WriteLine("Valor para rematricula: R$ 1.800,00;");
+}
+
+if (palavra == "MECANICA")
+{
+    //Informações sobre o curso
+    Console.WriteLine("Curso escolhido: MECANICA;");
+    Console.WriteLine("Materias: Calculo, Fisica, Mecanica dos fluidos, Mecanica dos Solidos, Automação e controle ;");
+    Console.WriteLine("Tempo de curso: 5 anos;");
+    Console.WriteLine("Horario das aulas: 19:00 as 22:30;");
+    Console.WriteLine("Mensalidade: R$ 750,00;");
+    Console.WriteLine("Valor para rematricula: R$ 1.790,00;");
+}
+
+if (palavra == "EDUCAÇÃO FISICA")
+{
+    //Informações sobre o curso
+    Console.WriteLine("Curso escolhido: EDUCAÇÃO FISICA;");
+    Console.WriteLine("Materias: Anatomia, Biomecanica, Teoria e pratica de treinamento, Fundamentos dos esportes ;");
+    Console.WriteLine("Tempo de curso: 4 anos;");
+    Console.WriteLine("Horario das aulas: 19:00 as 22:30;");
+    Console.WriteLine("Mensalidade: R$ 550,00;");
+    Console.WriteLine("Valor para rematricula: R$ 1.380,00;");
+}
+
+Console.WriteLine("-------------------------------------------------------------------");
+
+//Mostra os dados digitados
+Console.WriteLine("Ficha de Dados:");
+Console.WriteLine("-------------------------------------------------------------------");
+Console.WriteLine("Nome do aluno: " + nome);
+Console.WriteLine("Idade: " + idade);
+Console.WriteLine("Curso: " + palavra );
